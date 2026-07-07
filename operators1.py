@@ -25,3 +25,19 @@ saved_password = "abcd"
 enterd_password ="123"
 
 print(saved_password == enterd_password)
+
+#comparisoon operators
+
+'''==, !=,<,>,<=,>='''
+
+#Logical operators
+
+'''and, or, not'''
+
+balance = 500
+pin_correct = True
+
+if balance > 100 and pin_correct:
+    print("Withdraw allowed")
+else:
+    print("withdraw not allowed")
