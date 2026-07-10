@@ -140,6 +140,70 @@
 # print(s)
 
 
+# # #########DECORATORS
+
+# def login(func):
+#     def wrapper():
+#         print("Checking login")
+#         func()
+#     return wrapper
+# @login
+
+# def dashboard():
+#     print("Dashboard page ")
+# dashboard()
+
+
+# def message(func):
+#     def wrapper():
+#         print("Function started")
+#         func()
+#         print("Function ended")
+#     return wrapper
+# def BC():
+#     print("ODI HOGONA")
+
+# def sg():
+#     print("BUS ALLI")
+# @message
+# def hello():
+#     print("Hello python")
+#     BC()
+#     sg()
+
+# hello()
+
+
+#JSON FORMAT
+
+# import json
+
+# # student = {
+# #     "name" : "pavan",
+# #     "age" : 22
+
+
+# # }
+# # data = json.dumps(student)
+# # print(data)    
+
+
+############### CONVERT TO JSON TO PYTHON
+
+# import json
+
+# data = '{"name":"dinga","age":22}'
+# result = json.loads(data)
+# print(result["name"])
+
+
+# import requests
+# response = requests.get(
+#     "https://api.github.com/users/python"
+# )
+# data = response.json()
+# print(data)
+
         
 
 
