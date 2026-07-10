@@ -12,8 +12,12 @@ print(a|b)#RETURNS COMBINED VALUES FROM BOTH SETS
 
 a = {1,2,3,4,5,6}
 b = {1,4,6,78,9,0}
+<<<<<<< HEAD
 print(a & b)#RETURNS COMMON ELEMENTS FROM BOTH SETS
 
 
 
 
+=======
+print(a & b)#RETURNS COMMON ELEMENTS FROM BOTH SETS
+>>>>>>> 97bc5cf4afbd73c7c5d2858b378fc9398db6df2b
