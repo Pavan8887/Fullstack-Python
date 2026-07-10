@@ -18,8 +18,11 @@ print(x.index(5))'''
 
 #EXAMPLE 
 
-x = ("apple","banana","cherry","banana")
+'''x = ("apple","banana","cherry","banana")
 print(x.count("banana"))
+
+num = (10,20,30,40,50)
+print(num[1:5])'''
 
 
 
