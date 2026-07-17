@@ -1,5 +1,5 @@
 from django import forms
-from.models import Book,Review
+from models import Book,Review
 
 
 class BookForm(forms.ModelForm):
